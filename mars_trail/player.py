@@ -1,4 +1,5 @@
 import random
+import kessel_run
 class Player:
 
     def __init__(self, hp, job, skill_lvl):
@@ -11,10 +12,10 @@ class Player:
         return self.skill_lvl
 
     def job(self):
-        if self.job = 'pilot':
+        if self.job == 'pilot':
             self.hp = 100
             self.skill_lvl = {}
-        elif self.job = 'warrior':
+        elif self.job == 'warrior':
             self.hp = 150
             self.skill_lvl = {}
 
