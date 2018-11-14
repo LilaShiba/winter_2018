@@ -4,29 +4,28 @@ def make_nested(n_list):
     return new_a
 
 
+
 def get_adj(n_list, n):
+
     x,y = n
-    if x > 0 and n_list[x][y] != 'W':
-        up = (x-1, y)
-    else:
-        up = (x,y)
+    ans = []
 
-    if y > 0 and n_list[x][y] != 'W':
-        left = (x, y-1)
-    else:
-        left = (x,y)
+    if n_list[x][y] != 'W':
+        if x > 0:
+            up = (x-1, y)
+            ans.append(up)
+        if x < len(n_list) - 1:
+            down = (x+1, y)
+            ans.append(down)
 
-    if x < len(n_list) - 1 and n_list[x][y] != 'W':
-        down = (x+1, y)
-    else:
-        down = (x,y)
+        if y < len(n_list) - 1:
+            right = (x, y+1)
+            ans.append(right)
+        if y > 0:
+            left = (x, y-1)
+            ans.append(left)
 
-    if y < len(n_list) - 1 and n_list[x][y] != 'W':
-        right = (x, y+1)
-    else:
-        right = (x,y)
-
-    return {up, right, down, left}
+    return ans
 
 
 
@@ -65,4 +64,10 @@ def path_finder(a):
     maze = make_nested(a)
     num = len(maze[0]) - 1
     ans = bfs_shortest_path(maze, (0,0), (num,num))
-    return ans
+    print(ans)
+a = "\n".join([
+  ".W.",
+  ".W.",
+  "..."
+])
+path_finder(a)
