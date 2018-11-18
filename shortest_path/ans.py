@@ -60,15 +60,26 @@ def bfs_shortest_path(graph, start, goal):
     # in case there's no path between the 2 nodes
     return False
 
+
 def path_finder(a):
     maze = make_nested(a)
     num = len(maze[0]) - 1
     ans = bfs_shortest_path(maze, (0,0), (num,num))
     print(ans)
+<<<<<<< HEAD
 a = "\n".join([
   ".W.",
   ".W.",
   "...",
   ".W."
+=======
+e = "\n".join([
+  "..W...",
+  ".W....",
+  "..W...",
+  "..W...",
+  ".....W",
+  "......"
+>>>>>>> 65a6bbd1e0bbcf2abfe6fe8a60b9f17c8c58f4d9
 ])
-path_finder(a)
+path_finder(e)

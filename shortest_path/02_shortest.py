@@ -9,7 +9,6 @@ def make_nested(n_list):
     new_a = []
     for x in a:
         new_a.append(list(x))
-    pprint.pprint(new_a)
     return new_a
 
 maze = make_nested(a)
