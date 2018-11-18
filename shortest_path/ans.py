@@ -68,6 +68,7 @@ def path_finder(a):
 a = "\n".join([
   ".W.",
   ".W.",
-  "..."
+  "...",
+  ".W."
 ])
 path_finder(a)
