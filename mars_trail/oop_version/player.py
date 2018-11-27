@@ -1,11 +1,11 @@
 import random
 import kessel_run
+
 class Player:
 
     def __init__(self, hp, name):
         self.hp = hp
         self.name = name
-
 
     def alive(self):
         if self.hp <= 0:
@@ -47,7 +47,7 @@ class Ship():
             # print info
             self.weapons_info()
             # get choice
-            next_move = input('do you heal, fight, run away? (h/f/r)')
+            next_move = input('do you heal, fight, run away, escape pod? (h/f/r/e)')
             # add attack damage
             if next_move == 'f':
                 attack_choice = input('what attack do you pick?\n')
@@ -57,6 +57,9 @@ class Ship():
             # heal
             elif next_move == 'h':
                 self.players.heal()
+            # escape pod
+            elif next_move == 'e':
+
             # run away through an asteroid belt
             #else:
             #    distance = random.randint(10000,10000000000)
