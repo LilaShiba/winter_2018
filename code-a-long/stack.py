@@ -1,5 +1,5 @@
 class Stack():
-    # create stack object
+
     def __init__(self):
         self.items = []
 
@@ -7,23 +7,12 @@ class Stack():
         # return a boolean
         return self.items == []
 
+    # add things to stack
     def push(self, item):
         self.items.append(item)
 
-# create an instance of our class
-estelle = Stack()
-estelle.push('bork')
-print(estelle.isEmpty())
 
-class Queue():
-    def __init__(self):
-        self.items = []
-
-    def enqueue(self, item):
-        self.items.insert(0,item)
-
-    def dequeue(self):
-        return self.items.pop()
-
-# Instance Queue
-q_list = Queue()
+# create an instance of the class
+stacky = Stack()
+stacky.push('hello')
+print(stacky.isEmpty())
