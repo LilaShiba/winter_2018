@@ -1,5 +1,6 @@
 # Comp Sci 1
-## Work on your project!
+## 3 names for IA section A
+
 
 
 # Comp Sci 2
