@@ -1,3 +1,6 @@
+import time
+
+start_time = time.clock()
 memo = {}
 def fib(n):
     if n in memo: return memo[n]
@@ -10,5 +13,6 @@ def fib(n):
     memo[n] = f
     return f
 
-for n in range(1,1000):
+for n in range(1,35):
     print(n, ':', fib(n))
+print(time.clock() - start_time, "seconds")

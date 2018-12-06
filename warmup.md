@@ -1,7 +1,15 @@
 # Comp Sci 1
-## 3 names for IA section A
+Check slack
 
 
 
 # Comp Sci 2
-![magic square pic](magic.png)
+
+## Warmup
+  - Given a N X N array, write code that will add up all even numbers from the top-left to the bottom-right in a diagonal line.
+
+## Project Questions:
+  - Centralized or distributed system? Compare/ contrast the two options
+  - System Relationship : explain the relationship between the processor, sensor(s), and output transducer
+  - Feedback: what is your feedback control system? How does it work/ why?
+  - Scalable: How are you planning for this system to be scalable?
