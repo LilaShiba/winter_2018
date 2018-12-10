@@ -7,6 +7,6 @@ def fib(n):
         f = fib(n-1) + fib(n-2)
     return f
 
-for n in range(1,35):
+for n in range(1,100):
     print(n, ':', fib(n))
 print(time.clock() - start_time, "seconds")
