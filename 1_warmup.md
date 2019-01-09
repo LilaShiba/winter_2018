@@ -10,19 +10,24 @@ Tuesday
 - Pull up your code from yesterday's question
 - Comment your code
 - Come up with at least one question
-- Recursion to Iterative
+- Today's Goal: Recursive to Iterative
 
 ---
-Wednesday
+Wednesday Revisit
 ## Write the answer(s) to the following
 - Plan out the logic for the Knapsack problem
 - Given weights and values of n items, put these items in a knapsack of capacity W to get the maximum total value in the knapsack. You have unlimited items.
 ----
 Thursday
 ## Write the answer(s) to the following
-- Explain how cache memory works
 - Explain the difference between RAM and ROM
-- What is a truth table
+- Machine instruction cycle
+- create a program that demonstrates and teaches about the Machine instruction cycle using either oop or functional programming, but must use a 2D array with pretty print for display
+
+
+
+
+ [link]("https://www.youtube.com/watch?v=gI-qXk7XojA&t=34s")
 
 ----
 Friday

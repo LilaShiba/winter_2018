@@ -1,12 +1,18 @@
 Tuesday
 ## Write the answer(s) to the following
-- Explain the client server model in the context of an API?
+- Explain or Diagram the client server model
+
+## Wrap Up
 - What is a session
 - What is a socket
-
 ----
 Wednesday
 ## Write the answer(s) to the following
+- Explain or Diagram a 3 tier architecture
+- Explain or Diagram a P2P network
+
+##classwork
+- section D overview
 - Plan out the logic for a socket chatroom
 - Build a socket chatroom
 
@@ -16,6 +22,8 @@ Thursday
 - Explain how sessions are managed
 - Explain how a round robin works
 - What is a session IP hash
+
+- section E overview
 
 ----
 
